@@ -1,0 +1,1050 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 621174775,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Adding a non-existing merchant with a bank account",
+        "description": "",
+        "id": "merchant-scenarios;adding-a-non-existing-merchant-with-a-bank-account",
+        "after": [
+          {
+            "result": {
+              "duration": 14047994,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1070610316,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have my CVR number \"45612378\" and my company name \"KolkataAngels_Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45612378",
+                  "offset": 22
+                },
+                {
+                  "val": "KolkataAngels_Store",
+                  "offset": 53
+                }
+              ],
+              "location": "AddMerchantStepDefinitions.i_have_my_CVR_number_and_my_company_name(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 386803888,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I create my account with an existing bank account",
+            "match": {
+              "location": "AddMerchantStepDefinitions.createMerchantAccountWithBankAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3845118,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I get a merchant created response",
+            "match": {
+              "location": "AddMerchantStepDefinitions.checkPositiveResponse()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 120191095,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Adding a non-existing merchant without bank account",
+        "description": "",
+        "id": "merchant-scenarios;adding-a-non-existing-merchant-without-bank-account",
+        "after": [
+          {
+            "result": {
+              "duration": 95147,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60544828,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have my CVR number \"5123762136\" and my company name \"McDonalds_Lyngby\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5123762136",
+                  "offset": 22
+                },
+                {
+                  "val": "McDonalds_Lyngby",
+                  "offset": 55
+                }
+              ],
+              "location": "AddMerchantStepDefinitions.i_have_my_CVR_number_and_my_company_name(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131327091,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I create my account without an existing bank account",
+            "match": {
+              "location": "AddMerchantStepDefinitions.createMerchantAccountWithoutBankAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 283307,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I get a merchant does not have a bank account response",
+            "match": {
+              "location": "AddMerchantStepDefinitions.checkMerchantDoesNotHaveABankAccount()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 149523989,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.beforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Adding an existing merchant",
+        "description": "",
+        "id": "merchant-scenarios;adding-an-existing-merchant",
+        "after": [
+          {
+            "result": {
+              "duration": 523342710,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 67107385,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I have my CVR number \"45612378\" and my company name \"KolkataAngels_Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45612378",
+                  "offset": 22
+                },
+                {
+                  "val": "KolkataAngels_Store",
+                  "offset": 53
+                }
+              ],
+              "location": "AddMerchantStepDefinitions.i_have_my_CVR_number_and_my_company_name(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160620304,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I create my account with an existing bank account",
+            "match": {
+              "location": "AddMerchantStepDefinitions.createMerchantAccountWithBankAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 543834648,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I create my account with an existing bank account",
+            "match": {
+              "location": "AddMerchantStepDefinitions.createMerchantAccountWithBankAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 406613,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I get a merchant already exists response",
+            "match": {
+              "location": "AddMerchantStepDefinitions.checkMerchantAlreadyExists()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 152837482,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Doing a transaction with an invalid barcode",
+        "description": "",
+        "id": "merchant-scenarios;doing-a-transaction-with-an-invalid-barcode",
+        "after": [
+          {
+            "result": {
+              "duration": 18748579,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 64668559,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I have my CVR number \"45612378\" and my company name \"KolkataAngels_Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45612378",
+                  "offset": 22
+                },
+                {
+                  "val": "KolkataAngels_Store",
+                  "offset": 53
+                }
+              ],
+              "location": "AddMerchantStepDefinitions.i_have_my_CVR_number_and_my_company_name(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 167999075,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I create my account with an existing bank account",
+            "match": {
+              "location": "AddMerchantStepDefinitions.createMerchantAccountWithBankAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67137678,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I read an invalid barcode \"invalidBarcode-1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalidBarcode-1",
+                  "offset": 27
+                }
+              ],
+              "location": "TransferStepDefinitions.i_read_an_invalid_barcode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58111975,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I make a transaction with my CVR number \"45612378\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45612378",
+                  "offset": 41
+                }
+              ],
+              "location": "TransferStepDefinitions.i_make_a_transaction_with_my_CVR_number(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158720,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I get an invalid barcode response",
+            "match": {
+              "location": "TransferStepDefinitions.i_get_an_invalid_barcode_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 98752385,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.beforeScenario()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Doing a transaction with a valid barcode",
+        "description": "",
+        "id": "merchant-scenarios;doing-a-transaction-with-a-valid-barcode",
+        "after": [
+          {
+            "result": {
+              "duration": 35166705,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60949307,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I have my CVR number \"45612378\" and my company name \"KolkataAngels_Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45612378",
+                  "offset": 22
+                },
+                {
+                  "val": "KolkataAngels_Store",
+                  "offset": 53
+                }
+              ],
+              "location": "AddMerchantStepDefinitions.i_have_my_CVR_number_and_my_company_name(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144786285,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I create my account with an existing bank account",
+            "match": {
+              "location": "AddMerchantStepDefinitions.createMerchantAccountWithBankAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248899734,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I read a valid barcode",
+            "match": {
+              "location": "TransferStepDefinitions.i_read_a_valid_barcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155906920,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I make a transaction with my CVR number \"45612378\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45612378",
+                  "offset": 41
+                }
+              ],
+              "location": "TransferStepDefinitions.i_make_a_transaction_with_my_CVR_number(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 275627,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I get a transaction successful response",
+            "match": {
+              "location": "TransferStepDefinitions.i_get_a_transaction_successful_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 220484173,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.beforeScenario()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Doing a transaction with insufficient balance",
+        "description": "",
+        "id": "merchant-scenarios;doing-a-transaction-with-insufficient-balance",
+        "after": [
+          {
+            "result": {
+              "duration": 41439982,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 57021842,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I have my CVR number \"45612378\" and my company name \"KolkataAngels_Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45612378",
+                  "offset": 22
+                },
+                {
+                  "val": "KolkataAngels_Store",
+                  "offset": 53
+                }
+              ],
+              "location": "AddMerchantStepDefinitions.i_have_my_CVR_number_and_my_company_name(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147100524,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I create my account with an existing bank account",
+            "match": {
+              "location": "AddMerchantStepDefinitions.createMerchantAccountWithBankAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273994977,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I read a valid barcode",
+            "match": {
+              "location": "TransferStepDefinitions.i_read_a_valid_barcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152917695,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I make a transaction with my CVR number \"45612378\" and high balance \"99999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45612378",
+                  "offset": 41
+                },
+                {
+                  "val": "99999",
+                  "offset": 69
+                }
+              ],
+              "location": "TransferStepDefinitions.i_make_a_transaction_with_my_CVR_number_and_high_balance(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 218880,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I get a balance will be negative response",
+            "match": {
+              "location": "TransferStepDefinitions.i_get_a_balance_will_be_negative_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Merchant scenarios",
+    "description": "",
+    "id": "merchant-scenarios",
+    "keyword": "Feature",
+    "uri": "src/test/java/cucumberFeatures/merchantTest.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 119860002,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Creating a new customer with a bank account",
+        "description": "",
+        "id": "mobile-scenarios;creating-a-new-customer-with-a-bank-account",
+        "after": [
+          {
+            "result": {
+              "duration": 11693648,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54371390,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have my CPR \"696969-6969\", my first name \"Gabriel\" and my last name \"Angel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "696969-6969",
+                  "offset": 15
+                },
+                {
+                  "val": "Gabriel",
+                  "offset": 44
+                },
+                {
+                  "val": "Angel",
+                  "offset": 71
+                }
+              ],
+              "location": "CreateUserStepDefinitions.initilaizeUserVariables(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159401319,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I create a user with an existing bank account",
+            "match": {
+              "location": "CreateUserStepDefinitions.createUserWithBankAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113067,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I get an user created response",
+            "match": {
+              "location": "CreateUserStepDefinitions.checkUserCreateConfirmation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 106192168,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Creating a new customer without a bank account",
+        "description": "",
+        "id": "mobile-scenarios;creating-a-new-customer-without-a-bank-account",
+        "after": [
+          {
+            "result": {
+              "duration": 108800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 71276770,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have my CPR \"31313131\", my first name \"Israfil\" and my last name \"Angel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "31313131",
+                  "offset": 15
+                },
+                {
+                  "val": "Israfil",
+                  "offset": 41
+                },
+                {
+                  "val": "Angel",
+                  "offset": 68
+                }
+              ],
+              "location": "CreateUserStepDefinitions.initilaizeUserVariables(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149157483,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I create a user without an existing bank account",
+            "match": {
+              "location": "CreateUserStepDefinitions.createUserWithoutBankAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122879,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I get an user does not have a bank account response",
+            "match": {
+              "location": "CreateUserStepDefinitions.checkUserCreateRejectionByBank()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 104562303,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.beforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Creating an existing customer",
+        "description": "",
+        "id": "mobile-scenarios;creating-an-existing-customer",
+        "after": [
+          {
+            "result": {
+              "duration": 39752090,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45471554,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I have my CPR \"696969-6969\", my first name \"Gabriel\" and my last name \"Angel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "696969-6969",
+                  "offset": 15
+                },
+                {
+                  "val": "Gabriel",
+                  "offset": 44
+                },
+                {
+                  "val": "Angel",
+                  "offset": 71
+                }
+              ],
+              "location": "CreateUserStepDefinitions.initilaizeUserVariables(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159506705,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I create a user with an existing bank account",
+            "match": {
+              "location": "CreateUserStepDefinitions.createUserWithBankAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 208213,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get an user created response",
+            "match": {
+              "location": "CreateUserStepDefinitions.checkUserCreateConfirmation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128505546,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I create a user with an existing bank account",
+            "match": {
+              "location": "CreateUserStepDefinitions.createUserWithBankAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 375893,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I get a user already exists response",
+            "match": {
+              "location": "CreateUserStepDefinitions.checkUserAlreadyExist()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 101339690,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.beforeScenario()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Getting a barcode with a valid CPR",
+        "description": "",
+        "id": "mobile-scenarios;getting-a-barcode-with-a-valid-cpr",
+        "after": [
+          {
+            "result": {
+              "duration": 20906,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41985262,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I have my CPR \"696969-6969\", my first name \"Gabriel\" and my last name \"Angel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "696969-6969",
+                  "offset": 15
+                },
+                {
+                  "val": "Gabriel",
+                  "offset": 44
+                },
+                {
+                  "val": "Angel",
+                  "offset": 71
+                }
+              ],
+              "location": "CreateUserStepDefinitions.initilaizeUserVariables(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57268029,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I request a new barcode with a cpr \"696969-6969\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "696969-6969",
+                  "offset": 36
+                }
+              ],
+              "location": "BarcodeStepDefinitions.i_request_a_new_barcode_with_a_cpr(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75947,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I get my barcode",
+            "match": {
+              "location": "BarcodeStepDefinitions.acquireBarcodeCheck()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 95618093,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.beforeScenario()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Getting a barcode with an invalid CPR",
+        "description": "",
+        "id": "mobile-scenarios;getting-a-barcode-with-an-invalid-cpr",
+        "after": [
+          {
+            "result": {
+              "duration": 33280,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Helper.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 75701301,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I have my CPR \"696969-6969\", my first name \"Gabriel\" and my last name \"Angel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "696969-6969",
+                  "offset": 15
+                },
+                {
+                  "val": "Gabriel",
+                  "offset": 44
+                },
+                {
+                  "val": "Angel",
+                  "offset": 71
+                }
+              ],
+              "location": "CreateUserStepDefinitions.initilaizeUserVariables(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89762095,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I request a new barcode with a cpr \"696969-1111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "696969-1111",
+                  "offset": 36
+                }
+              ],
+              "location": "BarcodeStepDefinitions.i_request_a_new_barcode_with_a_cpr(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 218026,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I get a couldn\u0027t find user response",
+            "match": {
+              "location": "BarcodeStepDefinitions.i_get_a_couldn_t_find_user_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mobile scenarios",
+    "description": "",
+    "id": "mobile-scenarios",
+    "keyword": "Feature",
+    "uri": "src/test/java/cucumberFeatures/mobileSimulatorTest.feature",
+    "tags": []
+  }
+]
